@@ -1,94 +1,349 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-        <title>mon menu</title>
-    </head>
-    <body>
-        <h1>Bienvenue chez tantine laudes </h1>
-        <p><i>decouvrez la meilleure cuisine servie dans le meilleur restaurant</i></p>
-        <p><i>gout na gout</i></p>
-        <h2>Top categorie</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171310" />
+    <meta name="color-scheme" content="light" />
+    <title>Tantine Laudes | Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Patrick+Hand&family=Rye&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="glassbar" aria-label="Navigation">
+      <a class="glassbar-brand" href="#menu">
+        <span class="glassbar-mark" aria-hidden="true">T</span>
+        <span class="glassbar-name">Tantine Laudes</span>
+      </a>
+      <div class="glassbar-links">
+        <a href="#menu">La carte</a>
+        <a href="#photos">Photos</a>
+      </div>
+      <a class="pill-btn" href="#menu">Nous écrire</a>
+    </nav>
 
-        <p><i>Découvrez les boissons les plus achetées cette semaine</i></p>
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.09.03.jpeg" alt="Bouteille de Coca-Cola avec glaçons">
-            <div class="menu-item-info">
-                <p><b>Coca-Cola Original</b></p>
-                <p class="description">Boisson rafraîchissante servie bien fraîche (33 cl).</p>
-                <p class="price">1 500 FCFA</p>
-            </div>
-        </article>
+    <div class="page-shell">
+      <section class="menu-poster" id="menu" data-tilt aria-label="Menu Tantine Laudes">
+        <div class="poster">
+          <span class="tape tape--tl" aria-hidden="true"></span>
+          <span class="tape tape--tr" aria-hidden="true"></span>
+          <span class="tape tape--bl" aria-hidden="true"></span>
+          <span class="tape tape--br" aria-hidden="true"></span>
 
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.34.14.jpeg" alt="jus de fruit ">
-            <div class="menu-item-info">
-                <p><b>Jus de Fruit</b></p>
-                <p class="description">Jus de fruit naturellement sucré (33 cl).</p>
-                <p class="price">1 200 FCFA</p>
-            </div>
-        </article>
+          <span class="sprig sprig--top" aria-hidden="true">
+            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+              <path d="M8 54 C18 34, 30 22, 52 10" />
+              <path d="M30 26 q10 -4 16 -14 q-12 2 -16 14z" fill="currentColor" stroke="none" />
+              <path d="M22 35 q7 -6 10 -16 q-12 3 -10 16z" fill="currentColor" stroke="none" />
+              <path d="M45 17 q4 6 13 8 q-2 -12 -13 -8z" fill="currentColor" stroke="none" />
+            </svg>
+          </span>
 
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.09.03 (1).jpeg" alt="Bouteille de Fanta avec glaçons">
-            <div class="menu-item-info">
-                <p><b>Fanta Orange</b></p>
-                <p class="description">Boisson gazeuse à l'orange servie bien fraîche (33 cl).</p>
-                <p class="price">1 500 FCFA</p>
-            </div>
-        </article>
+          <header class="poster-header" data-reveal style="--d:.05s">
+            <div class="poster-brand">
+              <p class="eyebrow">
+                <span class="star" aria-hidden="true">✦</span>
+                Restaurant convivial · cuisine maison
+                <span class="star" aria-hidden="true">✦</span>
+              </p>
 
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.09.02.jpeg" alt="Bouteille de Sprite avec glaçons">
-            <div class="menu-item-info">
-                <p><b>Sprite</b></p>
-                <p class="description">Boisson gazeuse au citron-lime servie bien fraîche (33 cl).</p>
-                <p class="price">1 500 FCFA</p>
-            </div>
-        </article>
+              <div class="brand-head">
+                <svg class="brand-sun" viewBox="0 0 200 168" aria-hidden="true">
+                  <defs>
+                    <path id="ray" d="M100,88 L100,34 L107,31 L114,34 L114,88 Z" />
+                    <path id="ray2" d="M100,86 L100,44 L107,42 L114,44 L114,86 Z" />
+                  </defs>
+                  <g fill="#f2bf3c" opacity="0.30">
+                    <use href="#ray" transform="rotate(0 100 84)" />
+                    <use href="#ray" transform="rotate(22.5 100 84)" />
+                    <use href="#ray" transform="rotate(45 100 84)" />
+                    <use href="#ray" transform="rotate(67.5 100 84)" />
+                    <use href="#ray" transform="rotate(90 100 84)" />
+                    <use href="#ray" transform="rotate(112.5 100 84)" />
+                    <use href="#ray" transform="rotate(135 100 84)" />
+                    <use href="#ray" transform="rotate(157.5 100 84)" />
+                    <use href="#ray" transform="rotate(180 100 84)" />
+                    <use href="#ray" transform="rotate(202.5 100 84)" />
+                    <use href="#ray" transform="rotate(225 100 84)" />
+                    <use href="#ray" transform="rotate(247.5 100 84)" />
+                    <use href="#ray" transform="rotate(270 100 84)" />
+                    <use href="#ray" transform="rotate(292.5 100 84)" />
+                    <use href="#ray" transform="rotate(315 100 84)" />
+                    <use href="#ray" transform="rotate(337.5 100 84)" />
+                  </g>
+                  <g fill="#e8581c" opacity="0.22">
+                    <use href="#ray2" transform="rotate(11.25 100 84)" />
+                    <use href="#ray2" transform="rotate(33.75 100 84)" />
+                    <use href="#ray2" transform="rotate(56.25 100 84)" />
+                    <use href="#ray2" transform="rotate(78.75 100 84)" />
+                    <use href="#ray2" transform="rotate(101.25 100 84)" />
+                    <use href="#ray2" transform="rotate(123.75 100 84)" />
+                    <use href="#ray2" transform="rotate(146.25 100 84)" />
+                    <use href="#ray2" transform="rotate(168.75 100 84)" />
+                    <use href="#ray2" transform="rotate(191.25 100 84)" />
+                    <use href="#ray2" transform="rotate(213.75 100 84)" />
+                    <use href="#ray2" transform="rotate(236.25 100 84)" />
+                    <use href="#ray2" transform="rotate(258.75 100 84)" />
+                    <use href="#ray2" transform="rotate(281.25 100 84)" />
+                    <use href="#ray2" transform="rotate(303.75 100 84)" />
+                    <use href="#ray2" transform="rotate(326.25 100 84)" />
+                    <use href="#ray2" transform="rotate(348.75 100 84)" />
+                  </g>
+                  <circle cx="100" cy="84" r="9" fill="#f2bf3c" opacity="0.35" />
+                </svg>
 
-        <p><i>Des plats délicieux attendent votre commande !</i></p>
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.14.23 (2).jpeg" alt="Assiette de poulet rôti avec accompagnements">
-            <div class="menu-item-info">
-                <p><b>Poulet Rôti</b></p>
-                <p class="description">Poulet rôti juteux accompagné de légumes frais et de riz parfumé.</p>
-                <p class="price">5 000 FCFA</p>
+                <h1 class="brand-title">
+                  <span class="script script--small">chez</span>
+                  <span class="brand-line">
+                    <span class="brand-word">Tantine</span>
+                    <span class="brand-outline">Laudes</span>
+                  </span>
+                </h1>
+              </div>
             </div>
-        </article>
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.14.24 (3).jpeg" alt="Assiette de poisson grillé avec accompagnements">
-            <div class="menu-item-info">
-                <p><b>Poisson Grillé</b></p>
-                <p class="description">Poisson grillé à la perfection, servi avec des légumes et du riz.</p>
-                <p class="price">6 000 FCFA</p>
-            </div>
-        </article>
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.14.24 (1).jpeg" alt="Assiette de pâtes aux fruits de mer">
-            <div class="menu-item-info">
-                <p><b>Pâtes aux Fruits de Mer</b></p>
-                <p class="description">Pâtes fraîches accompagnées de crevettes, moules et calamars dans une sauce savoureuse.</p>
-                <p class="price">7 000 FCFA</p>
-            </div>
-        </article>
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.14.24.jpeg" alt="Assiette de steak avec accompagnements">
-            <div class="menu-item-info">
-                <p><b>Steak Grillé</b></p>
-                <p class="description">Steak tendre et juteux, servi avec des légumes grillés et des pommes de terre.</p>
-                <p class="price">8 000 FCFA</p>
-            </div>
-        </article>
-        <article class="menu-item">
-            <img src="WhatsApp Image 2026-09-11 at 11.14.24 (2).jpeg" alt="Assiette de riz fraîche">
-            <div class="menu-item-info">
-                <p><b>riz parfumé</b></p>
-                <p class="description">Riz parfumé servi avec des légumes frais.</p>
-                <p class="price">3 000 FCFA</p>
-            </div>
-        </article>
 
-    </body>
+            <span class="stamp-wrap" aria-hidden="true">
+              <svg class="stamp" viewBox="0 0 120 120" role="img" aria-label="Ouvert">
+                <g fill="none" stroke="currentColor">
+                  <circle cx="60" cy="60" r="55" stroke-width="4" />
+                  <circle cx="60" cy="60" r="46" stroke-width="2" stroke-dasharray="1 7" />
+                </g>
+                <path id="stamp-circle" d="M60,60 m-34,0 a34,34 0 1,1 68,0 a34,34 0 1,1 -68,0" fill="none" />
+                <text class="stamp-ring">
+                  <textPath href="#stamp-circle" startOffset="50%" text-anchor="middle">
+                    ★ CUISINE MAISON ★ GOÛT À GOÛT ★
+                  </textPath>
+                </text>
+                <text class="stamp-word" x="60" y="70" text-anchor="middle">OUVERT</text>
+              </svg>
+            </span>
+          </header>
+
+          <div class="poster-body">
+            <div class="title-wrap" data-reveal style="--d:.12s">
+              <svg class="divider" viewBox="0 0 220 16" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M0 9 Q14 3 30 9 T60 9 T90 9 T118 9 T146 9 T174 9 T202 9 T220 9" fill="none" stroke="#e8581c" stroke-width="3" stroke-linecap="round" />
+                <path d="M0 13 Q14 7 30 13 T60 13 T90 13 T118 13 T146 13 T174 13 T202 13 T220 13" fill="none" stroke="#241a12" stroke-width="1.5" stroke-linecap="round" opacity="0.55" />
+              </svg>
+              <p class="small-kicker">Menu du jour · du lundi au dimanche</p>
+              <h2 class="carte-title">
+                La carte
+                <span class="carte-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 54 26" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 12 C20 8, 34 8, 49 10" />
+                    <path d="M42 4 L51 10 L41 17" />
+                  </svg>
+                </span>
+              </h2>
+            </div>
+
+            <div class="menu-grid">
+              <div class="menu-column menu-column--light" data-reveal>
+                <span class="column-corner" aria-hidden="true">✦</span>
+                <h3>
+                  <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+                    <path d="M6 34 C14 20, 22 12, 33 6" />
+                    <path d="M22 18 q8 -2 10 -10 q-8 2 -10 10z" fill="currentColor" stroke="none" />
+                    <path d="M27 17 q4 5 10 7 q-1 -10 -10 -7z" fill="currentColor" stroke="none" />
+                  </svg>
+                  Les boissons du moment
+                </h3>
+                <ul>
+                  <li>
+                    <div class="item">
+                      <strong>Coca-Cola Original</strong>
+                      <small>Boisson rafraîchissante servie bien fraîche.</small>
+                    </div>
+                    <span class="price">1 500 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Jus de fruit</strong>
+                      <small>Jus de fruit naturellement sucré et ultra frais.</small>
+                    </div>
+                    <span class="price">1 200 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Fanta Orange</strong>
+                      <small>Boisson gazeuse à l'orange, idéale pour se rafraîchir.</small>
+                    </div>
+                    <span class="price">1 500 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Sprite</strong>
+                      <small>Boisson gazeuse au citron-lime, légère et pétillante.</small>
+                    </div>
+                    <span class="price">1 500 <small>F</small></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu-column menu-column--dark" data-reveal>
+                <span class="column-corner" aria-hidden="true">✦</span>
+                <h3>
+                  <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+                    <path d="M6 34 C14 20, 22 12, 33 6" />
+                    <path d="M22 18 q8 -2 10 -10 q-8 2 -10 10z" fill="currentColor" stroke="none" />
+                  </svg>
+                  Nos plats signature
+                </h3>
+                <ul>
+                  <li>
+                    <div class="item">
+                      <strong>Poulet rôti</strong>
+                      <small>Poulet juteux, légumes frais et riz parfumé.</small>
+                    </div>
+                    <span class="price">5 000 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Poisson grillé</strong>
+                      <small>Poisson grillé avec légumes et riz soigneusement préparés.</small>
+                    </div>
+                    <span class="price">6 000 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Pâtes aux fruits de mer</strong>
+                      <small>Crevettes, moules et calamars dans une sauce savoureuse.</small>
+                    </div>
+                    <span class="price">7 000 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Steak grillé</strong>
+                      <small>Steak tendre et juteux, servi avec légumes grillés.</small>
+                    </div>
+                    <span class="price">8 000 <small>F</small></span>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <strong>Riz parfumé</strong>
+                      <small>Riz parfumé servi avec des légumes frais.</small>
+                    </div>
+                    <span class="price">3 000 <small>F</small></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="polaroids" data-reveal style="--d:.18s" aria-label="Quelques photos de la carte">
+              <figure class="polaroid picorn">
+                <img
+                  src="WhatsApp Image 2026-09-11 at 11.34.14.jpeg"
+                  alt="Jus de fruit maison"
+                  loading="lazy"
+                />
+                <figcaption>Jus de fruit maison</figcaption>
+              </figure>
+              <figure class="polaroid">
+                <img
+                  src="WhatsApp Image 2026-09-11 at 11.09.03.jpeg"
+                  alt="Boisson bien fraîche à la carte"
+                  loading="lazy"
+                />
+                <figcaption>Boisson bien fraîche</figcaption>
+              </figure>
+              <figure class="polaroid picorn-l">
+                <img
+                  src="WhatsApp Image 2026-09-11 at 11.14.24 (3).jpeg"
+                  alt="Poisson grillé, légumes et riz"
+                  loading="lazy"
+                />
+                <figcaption>Poisson grillé</figcaption>
+              </figure>
+              <figure class="polaroid">
+                <img
+                  src="WhatsApp Image 2026-09-11 at 11.14.24 (1).jpeg"
+                  alt="Pâtes aux fruits de mer"
+                  loading="lazy"
+                />
+                <figcaption>Pâtes aux fruits de mer</figcaption>
+              </figure>
+            </div>
+
+            <footer class="poster-footer" data-reveal style="--d:.24s">
+              <svg class="divider divider--footer" viewBox="0 0 220 14" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M0 7 Q14 1 30 7 T60 7 T90 7 T118 7 T146 7 T174 7 T202 7 T220 7" fill="none" stroke="#e8581c" stroke-width="3" stroke-linecap="round" />
+              </svg>
+              <p class="footer-script">Goût à goût</p>
+              <p class="footer-sub">
+                <span aria-hidden="true">✦</span>
+                Chez Tantine Laudes — fait maison, avec le cœur
+                <span aria-hidden="true">✦</span>
+              </p>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+      <section class="related" id="photos" aria-label="Toutes nos photos">
+        <h2 data-reveal style="--d:.1s">La carte en photos</h2>
+        <div class="mini-grid" data-reveal style="--d:.16s">
+          <figure class="polaroid mini">
+            <img src="WhatsApp Image 2026-09-11 at 11.09.02.jpeg" alt="Photo de la carte" loading="lazy" />
+          </figure>
+          <figure class="polaroid mini">
+            <img src="WhatsApp Image 2026-09-11 at 11.09.03 (1).jpeg" alt="Photo de la carte" loading="lazy" />
+          </figure>
+          <figure class="polaroid mini">
+            <img src="WhatsApp Image 2026-09-11 at 11.14.24.jpeg" alt="Photo de la carte" loading="lazy" />
+          </figure>
+          <figure class="polaroid mini">
+            <img src="WhatsApp Image 2026-09-11 at 11.14.24 (2).jpeg" alt="Photo de la carte" loading="lazy" />
+          </figure>
+          <figure class="polaroid mini">
+            <img src="WhatsApp Image 2026-09-11 at 11.14.23 (2).jpeg" alt="Photo de la carte" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+    </div>
+  <noscript><style>[data-reveal]{opacity:1!important;transform:none!important;filter:none!important}</style></noscript>
+    <script>
+      (function () {
+        var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        var revealEls = document.querySelectorAll("[data-reveal]");
+        if ("IntersectionObserver" in window && !reduced) {
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) {
+                e.target.classList.add("in");
+                io.unobserve(e.target);
+              }
+            });
+          }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+          revealEls.forEach(function (el) { io.observe(el); });
+        } else {
+          revealEls.forEach(function (el) { el.classList.add("in"); });
+        }
+
+        var tiltEl = document.querySelector("[data-tilt]");
+        if (tiltEl && !reduced && window.matchMedia("(pointer:fine)").matches) {
+          var rect = function () { return tiltEl.getBoundingClientRect(); };
+          var b = rect();
+          var onMove = function (ev) {
+            var x = (ev.clientX - b.left) / b.width - 0.5;
+            var y = (ev.clientY - b.top) / b.height - 0.5;
+            tiltEl.style.setProperty("--ry", (x * 5).toFixed(2) + "deg");
+            tiltEl.style.setProperty("--rx", (-y * 4).toFixed(2) + "deg");
+          };
+          var onLeave = function () {
+            tiltEl.style.setProperty("--ry", "0deg");
+            tiltEl.style.setProperty("--rx", "0deg");
+          };
+          window.addEventListener("resize", function () { b = rect(); });
+          tiltEl.addEventListener("pointermove", onMove);
+          tiltEl.addEventListener("pointerleave", onLeave);
+        }
+      })();
+    </script>
+  </body>
 </html>
